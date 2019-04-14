@@ -1,0 +1,713 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BeaconBroadcaster"
+provides-nominal:
+- "5idIOT17BeaconBroadcasterC"
+provides-member:
+- ["5idIOT17BeaconBroadcasterC", ""]
+provides-dynamic-lookup:
+- "peripheralManagerDidUpdateState"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+="
+- !private "<"
+- !private "=="
+- "AssignmentPrecedence"
+- "BeaconBroadcaster"
+- "Bool"
+- "BooleanLiteralType"
+- "CBPeripheralManager"
+- "CBPeripheralManagerDelegate"
+- !private "CLBeaconRegion"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "NSNumber"
+- "NSObject"
+- "NSString"
+- !private "Notification"
+- !private "NotificationCenter"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "Thread"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- !private "UIApplication"
+- "UIViewController"
+- "UInt16"
+- !private "UUID"
+- !private "UnicodeScalarType"
+- !private "print"
+depends-member:
+- ["5idIOT17BeaconBroadcasterC", "BeaconBroadcaster"]
+- ["5idIOT17BeaconBroadcasterC", "Bool"]
+- ["5idIOT17BeaconBroadcasterC", "CBPeripheralManager"]
+- !private ["5idIOT17BeaconBroadcasterC", "CLBeaconRegion"]
+- !private ["5idIOT17BeaconBroadcasterC", "DispatchQueue"]
+- ["5idIOT17BeaconBroadcasterC", "Int"]
+- !private ["5idIOT17BeaconBroadcasterC", "NSNumber"]
+- ["5idIOT17BeaconBroadcasterC", "NSString"]
+- !private ["5idIOT17BeaconBroadcasterC", "Notification"]
+- !private ["5idIOT17BeaconBroadcasterC", "NotificationCenter"]
+- ["5idIOT17BeaconBroadcasterC", "String"]
+- !private ["5idIOT17BeaconBroadcasterC", "Thread"]
+- !private ["5idIOT17BeaconBroadcasterC", "UIAlertAction"]
+- !private ["5idIOT17BeaconBroadcasterC", "UIAlertController"]
+- !private ["5idIOT17BeaconBroadcasterC", "UIApplication"]
+- ["5idIOT17BeaconBroadcasterC", "UIViewController"]
+- ["5idIOT17BeaconBroadcasterC", "UInt16"]
+- !private ["5idIOT17BeaconBroadcasterC", "UUID"]
+- ["5idIOT17BeaconBroadcasterC", "_peripheralManager"]
+- ["5idIOT17BeaconBroadcasterC", "beaconStatus"]
+- ["5idIOT17BeaconBroadcasterC", "deinit"]
+- ["5idIOT17BeaconBroadcasterC", "getTopWindow"]
+- ["5idIOT17BeaconBroadcasterC", "init"]
+- ["5idIOT17BeaconBroadcasterC", "isBroadcasting"]
+- ["5idIOT17BeaconBroadcasterC", "peripheralManager"]
+- ["5idIOT17BeaconBroadcasterC", "peripheralManagerDidStartAdvertising"]
+- ["5idIOT17BeaconBroadcasterC", "peripheralManagerDidUpdateState"]
+- ["5idIOT17BeaconBroadcasterC", "peripheralManagerIsReady"]
+- ["5idIOT17BeaconBroadcasterC", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["5idIOT17BeaconBroadcasterC", "print"]
+- ["5idIOT17BeaconBroadcasterC", "shared"]
+- ["5idIOT17BeaconBroadcasterC", "startBeacon"]
+- ["5idIOT17BeaconBroadcasterC", "startBeaconFor"]
+- ["5idIOT17BeaconBroadcasterC", "stopBeacon"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["So9CBManagerC", "init"]
+- !private ["So9CBManagerC", "isAdvertising"]
+- !private ["So9CBManagerC", "startAdvertising"]
+- !private ["So9CBManagerC", "state"]
+- !private ["So9CBManagerC", "stopAdvertising"]
+- !private ["So14CBManagerStateV", "poweredOn"]
+- !private ["So14CBManagerStateV", "unknown"]
+- !private ["So19CBPeripheralManagerC", "init"]
+- !private ["So19CBPeripheralManagerC", "isAdvertising"]
+- !private ["So19CBPeripheralManagerC", "startAdvertising"]
+- !private ["So19CBPeripheralManagerC", "state"]
+- !private ["So19CBPeripheralManagerC", "stopAdvertising"]
+- ["So27CBPeripheralManagerDelegateP", "BeaconBroadcaster"]
+- !private ["So27CBPeripheralManagerDelegateP", "CBPeripheralManager"]
+- !private ["So27CBPeripheralManagerDelegateP", "CLBeaconRegion"]
+- !private ["So27CBPeripheralManagerDelegateP", "DispatchQueue"]
+- !private ["So27CBPeripheralManagerDelegateP", "NSNumber"]
+- !private ["So27CBPeripheralManagerDelegateP", "Notification"]
+- !private ["So27CBPeripheralManagerDelegateP", "NotificationCenter"]
+- !private ["So27CBPeripheralManagerDelegateP", "Thread"]
+- !private ["So27CBPeripheralManagerDelegateP", "UIAlertAction"]
+- !private ["So27CBPeripheralManagerDelegateP", "UIAlertController"]
+- !private ["So27CBPeripheralManagerDelegateP", "UIApplication"]
+- !private ["So27CBPeripheralManagerDelegateP", "UUID"]
+- ["So27CBPeripheralManagerDelegateP", ""]
+- !private ["So27CBPeripheralManagerDelegateP", "_peripheralManager"]
+- !private ["So27CBPeripheralManagerDelegateP", "getTopWindow"]
+- ["So27CBPeripheralManagerDelegateP", "init"]
+- !private ["So27CBPeripheralManagerDelegateP", "isBroadcasting"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralManager"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralManagerDidStartAdvertising"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralManagerDidUpdateState"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralManagerIsReady"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["So27CBPeripheralManagerDelegateP", "print"]
+- !private ["So27CBPeripheralManagerDelegateP", "startBeacon"]
+- !private ["So27CBPeripheralManagerDelegateP", "startBeaconFor"]
+- !private ["So27CBPeripheralManagerDelegateP", "stopBeacon"]
+- !private ["So14CLBeaconRegionC", "init"]
+- !private ["So14CLBeaconRegionC", "peripheralData"]
+- !private ["So8CLRegionC", "init"]
+- !private ["So8CLRegionC", "peripheralData"]
+- ["s7CVarArgP", "BeaconBroadcaster"]
+- !private ["s7CVarArgP", "CBPeripheralManager"]
+- !private ["s7CVarArgP", "CLBeaconRegion"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "NSNumber"]
+- !private ["s7CVarArgP", "Notification"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "Thread"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UUID"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_peripheralManager"]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "getTopWindow"]
+- !private ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isAdvertising"]
+- !private ["s7CVarArgP", "isBroadcasting"]
+- !private ["s7CVarArgP", "keyWindow"]
+- !private ["s7CVarArgP", "peripheralData"]
+- ["s7CVarArgP", "peripheralManager"]
+- ["s7CVarArgP", "peripheralManagerDidStartAdvertising"]
+- ["s7CVarArgP", "peripheralManagerDidUpdateState"]
+- ["s7CVarArgP", "peripheralManagerIsReady"]
+- ["s7CVarArgP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "presentedViewController"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "sleep"]
+- !private ["s7CVarArgP", "startAdvertising"]
+- !private ["s7CVarArgP", "startBeacon"]
+- !private ["s7CVarArgP", "startBeaconFor"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "stopAdvertising"]
+- !private ["s7CVarArgP", "stopBeacon"]
+- ["s28CustomDebugStringConvertibleP", "BeaconBroadcaster"]
+- !private ["s28CustomDebugStringConvertibleP", "CBPeripheralManager"]
+- !private ["s28CustomDebugStringConvertibleP", "CLBeaconRegion"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "Notification"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "Thread"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UUID"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_peripheralManager"]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "getTopWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isAdvertising"]
+- !private ["s28CustomDebugStringConvertibleP", "isBroadcasting"]
+- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralData"]
+- ["s28CustomDebugStringConvertibleP", "peripheralManager"]
+- ["s28CustomDebugStringConvertibleP", "peripheralManagerDidStartAdvertising"]
+- ["s28CustomDebugStringConvertibleP", "peripheralManagerDidUpdateState"]
+- ["s28CustomDebugStringConvertibleP", "peripheralManagerIsReady"]
+- ["s28CustomDebugStringConvertibleP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "presentedViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "sleep"]
+- !private ["s28CustomDebugStringConvertibleP", "startAdvertising"]
+- !private ["s28CustomDebugStringConvertibleP", "startBeacon"]
+- !private ["s28CustomDebugStringConvertibleP", "startBeaconFor"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAdvertising"]
+- !private ["s28CustomDebugStringConvertibleP", "stopBeacon"]
+- !private ["s17CustomReflectableP", "Name"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "BeaconBroadcaster"]
+- !private ["s23CustomStringConvertibleP", "CBPeripheralManager"]
+- !private ["s23CustomStringConvertibleP", "CLBeaconRegion"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "Notification"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "Thread"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UUID"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_peripheralManager"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "getTopWindow"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isAdvertising"]
+- !private ["s23CustomStringConvertibleP", "isBroadcasting"]
+- !private ["s23CustomStringConvertibleP", "keyWindow"]
+- !private ["s23CustomStringConvertibleP", "peripheralData"]
+- ["s23CustomStringConvertibleP", "peripheralManager"]
+- ["s23CustomStringConvertibleP", "peripheralManagerDidStartAdvertising"]
+- ["s23CustomStringConvertibleP", "peripheralManagerDidUpdateState"]
+- ["s23CustomStringConvertibleP", "peripheralManagerIsReady"]
+- ["s23CustomStringConvertibleP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "presentedViewController"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "sleep"]
+- !private ["s23CustomStringConvertibleP", "startAdvertising"]
+- !private ["s23CustomStringConvertibleP", "startBeacon"]
+- !private ["s23CustomStringConvertibleP", "startBeaconFor"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "stopAdvertising"]
+- !private ["s23CustomStringConvertibleP", "stopBeacon"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["SE", "init"]
+- ["SQ", "BeaconBroadcaster"]
+- !private ["SQ", "CBPeripheralManager"]
+- !private ["SQ", "CLBeaconRegion"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "NSNumber"]
+- !private ["SQ", "Name"]
+- !private ["SQ", "Notification"]
+- !private ["SQ", "NotificationCenter"]
+- !private ["SQ", "Thread"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "UUID"]
+- ["SQ", ""]
+- !private ["SQ", "_peripheralManager"]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "default"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "getTopWindow"]
+- !private ["SQ", "global"]
+- ["SQ", "init"]
+- !private ["SQ", "isAdvertising"]
+- !private ["SQ", "isBroadcasting"]
+- !private ["SQ", "keyWindow"]
+- !private ["SQ", "peripheralData"]
+- ["SQ", "peripheralManager"]
+- ["SQ", "peripheralManagerDidStartAdvertising"]
+- ["SQ", "peripheralManagerDidUpdateState"]
+- ["SQ", "peripheralManagerIsReady"]
+- ["SQ", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["SQ", "post"]
+- !private ["SQ", "poweredOn"]
+- !private ["SQ", "present"]
+- !private ["SQ", "presentedViewController"]
+- !private ["SQ", "print"]
+- !private ["SQ", "rootViewController"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "sleep"]
+- !private ["SQ", "startAdvertising"]
+- !private ["SQ", "startBeacon"]
+- !private ["SQ", "startBeaconFor"]
+- !private ["SQ", "state"]
+- !private ["SQ", "stopAdvertising"]
+- !private ["SQ", "stopBeacon"]
+- !private ["SQ", "unknown"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["SH", "BeaconBroadcaster"]
+- !private ["SH", "CBPeripheralManager"]
+- !private ["SH", "CLBeaconRegion"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "NSNumber"]
+- !private ["SH", "Name"]
+- !private ["SH", "Notification"]
+- !private ["SH", "NotificationCenter"]
+- !private ["SH", "Thread"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "UUID"]
+- ["SH", ""]
+- !private ["SH", "_peripheralManager"]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "cancel"]
+- !private ["SH", "default"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "getTopWindow"]
+- !private ["SH", "global"]
+- ["SH", "init"]
+- !private ["SH", "isAdvertising"]
+- !private ["SH", "isBroadcasting"]
+- !private ["SH", "keyWindow"]
+- !private ["SH", "peripheralData"]
+- ["SH", "peripheralManager"]
+- ["SH", "peripheralManagerDidStartAdvertising"]
+- ["SH", "peripheralManagerDidUpdateState"]
+- ["SH", "peripheralManagerIsReady"]
+- ["SH", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["SH", "post"]
+- !private ["SH", "poweredOn"]
+- !private ["SH", "present"]
+- !private ["SH", "presentedViewController"]
+- !private ["SH", "print"]
+- !private ["SH", "rootViewController"]
+- !private ["SH", "shared"]
+- !private ["SH", "sleep"]
+- !private ["SH", "startAdvertising"]
+- !private ["SH", "startBeacon"]
+- !private ["SH", "startBeaconFor"]
+- !private ["SH", "state"]
+- !private ["SH", "stopAdvertising"]
+- !private ["SH", "stopBeacon"]
+- !private ["SH", "unknown"]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "peripheralData"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "presentedViewController"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "peripheralData"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "presentedViewController"]
+- !private ["So8NSNumberC", "init"]
+- ["So8NSObjectC", "BeaconBroadcaster"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CBPeripheralManager"]
+- !private ["So8NSObjectC", "CLBeaconRegion"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "Notification"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Thread"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "UInt16"]
+- !private ["So8NSObjectC", "UUID"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_peripheralManager"]
+- !private ["So8NSObjectC", "addAction"]
+- ["So8NSObjectC", "beaconStatus"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "getTopWindow"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isAdvertising"]
+- ["So8NSObjectC", "isBroadcasting"]
+- !private ["So8NSObjectC", "keyWindow"]
+- !private ["So8NSObjectC", "peripheralData"]
+- ["So8NSObjectC", "peripheralManager"]
+- ["So8NSObjectC", "peripheralManagerDidStartAdvertising"]
+- ["So8NSObjectC", "peripheralManagerDidUpdateState"]
+- ["So8NSObjectC", "peripheralManagerIsReady"]
+- ["So8NSObjectC", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presentedViewController"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "rootViewController"]
+- ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "sleep"]
+- !private ["So8NSObjectC", "startAdvertising"]
+- ["So8NSObjectC", "startBeacon"]
+- ["So8NSObjectC", "startBeaconFor"]
+- !private ["So8NSObjectC", "state"]
+- !private ["So8NSObjectC", "stopAdvertising"]
+- ["So8NSObjectC", "stopBeacon"]
+- ["So8NSObjectP", "BeaconBroadcaster"]
+- !private ["So8NSObjectP", "CBPeripheralManager"]
+- !private ["So8NSObjectP", "CLBeaconRegion"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "NSNumber"]
+- !private ["So8NSObjectP", "Notification"]
+- !private ["So8NSObjectP", "NotificationCenter"]
+- !private ["So8NSObjectP", "Thread"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
+- !private ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "UUID"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_peripheralManager"]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "getTopWindow"]
+- !private ["So8NSObjectP", "global"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isAdvertising"]
+- !private ["So8NSObjectP", "isBroadcasting"]
+- !private ["So8NSObjectP", "keyWindow"]
+- !private ["So8NSObjectP", "peripheralData"]
+- ["So8NSObjectP", "peripheralManager"]
+- ["So8NSObjectP", "peripheralManagerDidStartAdvertising"]
+- ["So8NSObjectP", "peripheralManagerDidUpdateState"]
+- ["So8NSObjectP", "peripheralManagerIsReady"]
+- ["So8NSObjectP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "presentedViewController"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "rootViewController"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "sleep"]
+- !private ["So8NSObjectP", "startAdvertising"]
+- !private ["So8NSObjectP", "startBeacon"]
+- !private ["So8NSObjectP", "startBeaconFor"]
+- !private ["So8NSObjectP", "state"]
+- !private ["So8NSObjectP", "stopAdvertising"]
+- !private ["So8NSObjectP", "stopBeacon"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "peripheralData"]
+- !private ["So7NSValueC", "init"]
+- !private ["So18NSNotificationNamea", "init"]
+- !private ["10Foundation12NotificationV", "Name"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- !private ["So9OS_objectC", "global"]
+- !private ["SY", "alert"]
+- !private ["SY", "cancel"]
+- !private ["SY", "init"]
+- !private ["SY", "poweredOn"]
+- !private ["SY", "unknown"]
+- !private ["10Foundation20ReferenceConvertibleP", "Name"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "cancel"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So8NSThreadC", "sleep"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "presentedViewController"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So13UIApplicationC", "keyWindow"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "presentedViewController"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "presentedViewController"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentedViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "keyWindow"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presentedViewController"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presentedViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "presentedViewController"]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "presentedViewController"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "keyWindow"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "presentedViewController"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "presentedViewController"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "BeaconBroadcaster"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CBPeripheralManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLBeaconRegion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Notification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Thread"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UUID"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_peripheralManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getTopWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isAdvertising"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isBroadcasting"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralManagerDidStartAdvertising"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralManagerDidUpdateState"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralManagerIsReady"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentedViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sleep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAdvertising"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startBeacon"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startBeaconFor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAdvertising"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopBeacon"]
+- !private ["s21_ObjectiveCBridgeableP", "Name"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+depends-nominal:
+- "5idIOT17BeaconBroadcasterC"
+- !private "So15CALayerDelegateP"
+- !private "So9CBManagerC"
+- !private "So14CBManagerStateV"
+- !private "So19CBPeripheralManagerC"
+- "So27CBPeripheralManagerDelegateP"
+- !private "So14CLBeaconRegionC"
+- !private "So8CLRegionC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- !private "So18NSNotificationNamea"
+- !private "10Foundation12NotificationV"
+- !private "So20NSNotificationCenterC"
+- !private "So9OS_objectC"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s27StringInterpolationProtocolP"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- !private "s16TextOutputStreamP"
+- !private "So8NSThreadC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- !private "10Foundation4UUIDV"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8faf2c452b4154cc41387635dfb86118"

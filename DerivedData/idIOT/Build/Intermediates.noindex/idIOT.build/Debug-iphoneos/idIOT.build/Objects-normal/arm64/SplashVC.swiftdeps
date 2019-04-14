@@ -1,0 +1,452 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SplashVC"
+provides-nominal:
+- "5idIOT8SplashVCC"
+provides-member:
+- ["5idIOT8SplashVCC", ""]
+provides-dynamic-lookup:
+- "nameLabel"
+- "viewDidAppear"
+- "viewDidLoad"
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "DispatchQueue"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "SplashVC"
+- "StringLiteralType"
+- "UILabel"
+- !private "UIView"
+- "UIViewController"
+depends-member:
+- !private ["So15CALayerDelegateP", "alpha"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["So15CALayerDelegateP", "window"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "alpha"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "nameLabel"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidAppear"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "window"]
+- !private ["SL", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "alpha"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "nameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s17CustomReflectableP", "alpha"]
+- !private ["s17CustomReflectableP", "window"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "alpha"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "nameLabel"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidAppear"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "window"]
+- !private ["Se", "alpha"]
+- !private ["Se", "window"]
+- !private ["So18OS_dispatch_objectC", "asyncAfter"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "asyncAfter"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["SE", "alpha"]
+- !private ["SE", "window"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "UIView"]
+- ["SQ", ""]
+- !private ["SQ", "alpha"]
+- !private ["SQ", "animate"]
+- !private ["SQ", "asyncAfter"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "main"]
+- !private ["SQ", "nameLabel"]
+- !private ["SQ", "now"]
+- !private ["SQ", "rootViewController"]
+- !private ["SQ", "storyboard"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidAppear"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "window"]
+- !private ["s23ExpressibleByNilLiteralP", "alpha"]
+- !private ["s23ExpressibleByNilLiteralP", "window"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "UIView"]
+- ["SH", ""]
+- !private ["SH", "alpha"]
+- !private ["SH", "animate"]
+- !private ["SH", "asyncAfter"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "main"]
+- !private ["SH", "nameLabel"]
+- !private ["SH", "rootViewController"]
+- !private ["SH", "storyboard"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidAppear"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "window"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "alpha"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "nameLabel"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "storyboard"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidAppear"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "window"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "UIView"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "nameLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidAppear"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "alpha"]
+- !private ["So8NSObjectC", "animate"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "nameLabel"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "storyboard"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidAppear"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "window"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "alpha"]
+- !private ["So8NSObjectP", "animate"]
+- !private ["So8NSObjectP", "asyncAfter"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "nameLabel"]
+- !private ["So8NSObjectP", "rootViewController"]
+- !private ["So8NSObjectP", "storyboard"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidAppear"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "window"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "alpha"]
+- !private ["Sq", "window"]
+- ["5idIOT8SplashVCC", "Bool"]
+- !private ["5idIOT8SplashVCC", "DispatchQueue"]
+- ["5idIOT8SplashVCC", "UILabel"]
+- !private ["5idIOT8SplashVCC", "UIView"]
+- ["5idIOT8SplashVCC", "deinit"]
+- ["5idIOT8SplashVCC", "init"]
+- ["5idIOT8SplashVCC", "nameLabel"]
+- !private ["5idIOT8SplashVCC", "storyboard"]
+- !private ["5idIOT8SplashVCC", "view"]
+- ["5idIOT8SplashVCC", "viewDidAppear"]
+- ["5idIOT8SplashVCC", "viewDidLoad"]
+- !private ["So29UIAccessibilityIdentificationP", "alpha"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So29UIAccessibilityIdentificationP", "window"]
+- !private ["So12UIAppearanceP", "alpha"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So12UIAppearanceP", "window"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "alpha"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "nameLabel"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidAppear"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "window"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "UIView"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "nameLabel"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidAppear"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "alpha"]
+- !private ["So17UICoordinateSpaceP", "alpha"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So17UICoordinateSpaceP", "window"]
+- !private ["So13UIDynamicItemP", "alpha"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "window"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "alpha"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "nameLabel"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidAppear"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "window"]
+- !private ["So11UIFocusItemP", "alpha"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So11UIFocusItemP", "window"]
+- !private ["So20UIFocusItemContainerP", "alpha"]
+- !private ["So20UIFocusItemContainerP", "animate"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "window"]
+- !private ["So7UILabelC", "alpha"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "alpha"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "nameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidAppear"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "alpha"]
+- !private ["So11UIResponderC", "animate"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "nameLabel"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "storyboard"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidAppear"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So11UIResponderC", "window"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "alpha"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "nameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "window"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "UIView"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "nameLabel"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidAppear"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "alpha"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "nameLabel"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidAppear"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "window"]
+- !private ["So23UIUserActivityRestoringP", "DispatchQueue"]
+- !private ["So23UIUserActivityRestoringP", "UIView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "alpha"]
+- !private ["So23UIUserActivityRestoringP", "animate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "nameLabel"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "storyboard"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidAppear"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "window"]
+- !private ["So6UIViewC", "alpha"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So6UIViewC", "window"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "UILabel"]
+- !private ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "nameLabel"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidAppear"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alpha"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidAppear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["s21_ObjectiveCBridgeableP", "alpha"]
+- !private ["s21_ObjectiveCBridgeableP", "window"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "alpha"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "window"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "8Dispatch0A4TimeV"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- "5idIOT8SplashVCC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "12ea300a60ff99b41323768419cfa5ca"
